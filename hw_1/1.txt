@@ -1,0 +1,67 @@
+1 and 1 = 1
+1 and 0 = 0
+0 and 1 = 0
+0 and 0 = 0
+
+1 or 1 = 1
+1 or 0 = 1
+0 or 1 = 1
+0 or 0 = 1
+
+'a' and 1 = 1
+'a' or 1  = 'a'
+1 and 'a' = 'a'
+1 or 'a'  = 1
+
+'a' and 0 = 0
+'a' or 0  = 'a'
+0 and 'a' = 0
+0 or 'a'  = 'a'
+
+True and True    = True
+True and False   = False
+False and True   = False
+False and False  = False
+
+True or True    = True
+True or False   = True
+False or True   = True
+False or False  = False
+
+1 and True = True
+1 or True  = 1
+True and 1 = 1
+True or 1  = True
+
+ 1 and False = False
+ 1 or False  = 1
+ False and 1 = False
+ False or 1  = 1
+
+ True and 'a'  = 'a'
+ True or 'a'   = True
+ False or 'a'  = 'a'
+ False and 'a' = False
+
+ input() отличается от raw_input(), тем, что input() возвращает введеные пользователем данные в, том формате, что ввел пользователь. То есть если пользователь введет
+ user_input = input('Введите что-нибудь') # user press 4
+ user_input = 4 числовой формат.
+ а если пользователь использует raw_input()
+ user_input = raw_input('Введите что-нибудь') # user press 4
+ user_input = '4', строковый формат.
+
+input(), изначально ожидает, что будет введено число, то есть для того, чтобы при помощи input() записать строку пользователю необходимо будет текст поместить в ''(кавычки).
+
+input() - используется только в python версии 2, в версии 3 input() заменили на raw_input(), и поэтому в python 3 все, что вводит пользователь это строка.
+
+
+
+
+
+
+
+
+
+
+
+
